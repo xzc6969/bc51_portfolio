@@ -1,0 +1,323 @@
+<!-- b4-$ -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header class="container">
+        <div class="header-content">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">
+                    <i class="fa-solid fa-dice-d20 fa-2x"></i>
+                    <span>CyberFortfolio</span>
+                </a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <!-- ml-auto: class của BS4, margin-left:auto -->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item item1">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section class="carousel">
+        <!-- b4-carousel-caption -->
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="img-thumb">
+                            <img src="./image/01-3.jpg" alt="">
+                        </div>
+                        <h3>Our goals. Our mission.</h3>
+                        <p>How we help other companies to grow.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="img-thumb">
+
+                            <img src="./image/02-3.jpg" alt="">
+                        </div>
+                        <h3>Our goals. Our mission.</h3>
+                        <p>How we help other companies to grow.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="img-thumb">
+                            <img src="./image/03-3.jpg" alt="">
+                        </div>
+                        <h3>Our goals. Our mission.</h3>
+                        <p>How we help other companies to grow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="project" class="container py-5">
+        <!-- text-center: căn giữa theo chiều ngang -->
+        <div class="project-title text-center">
+            <h1>I Love What I Do</h1>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+                dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.Vestibulum ante ipsum primis
+                in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+        </div>
+
+
+        <div class="project-content">
+            <!-- Nav tabs -->
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#allProjects">All Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#Illustration">Illustration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#Photography">Photography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#Website">Website</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+
+            <div class="tab-content">
+                <div class="tab-pane container active" id="allProjects">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g1.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g2.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Woman walking her small dog</h4>
+                                    <p class="card-text">Illustrations</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g3.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Oil bottle branding</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g4.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Smiling Woman</h4>
+                                    <p class="card-text">Illustrations</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g5.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Drink can design</h4>
+                                    <p class="card-text">Packaging</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g6.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">I love you hand gesture</h4>
+                                    <p class="card-text">Packaging</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-pane container fade" id="Illustration">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g1.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g2.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Woman walking her small dog</h4>
+                                    <p class="card-text">Illustrations</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g3.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Oil bottle branding</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-pane container fade" id="Photography">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g3.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Oil bottle branding</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g4.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Smiling Woman</h4>
+                                    <p class="card-text">Illustrations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-pane container fade" id="Website">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g6.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">I love you hand gesture</h4>
+                                    <p class="card-text">Packaging</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="service">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="service-title text-center mx-auto">
+                <h1>I'm Available For Hire</h1>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+                    dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+            </div>
+
+
+            <div class="service-content">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-paintbrush"></i>
+                                <h4 class="card-title">Design</h4>
+                                <p class="card-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                    posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-shekel-sign"></i>
+                                <h4 class="card-title">Marketing</h4>
+                                <p class="card-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                    posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-camera"></i>
+                                <h4 class="card-title">Photography</h4>
+                                <p class="card-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                    posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
